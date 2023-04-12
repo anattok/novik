@@ -1,0 +1,26 @@
+.portfolio {
+  padding: 112px 0 96px;
+  background: #f6f6f6;
+}
+.portfolio__item {
+  margin-bottom: 100px;
+}
+.portfolio__title {
+  margin-bottom: 47px;
+}
+.potfolio__img {
+  margin-bottom: 42px;
+  width: 100%;
+}
+.portfolio__link {
+  display: flex;
+  justify-content: center;
+}
+.portfolio__link a {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #070707;
+}

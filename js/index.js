@@ -1,8 +1,10 @@
 // burger menu
 const burger = document.querySelector(".burger");
-const menu = document.querySelector(".menu");
+const checkInput = document.querySelector(".chk");
 
-burger.addEventListener('click', () => {
-    menu.classList.toggle("menu--active");
-    burger.classList.toggle("burger--active");
-})
+checkInput.addEventListener("change", (evt) => {
+  burger.classList.add("burger--active");
+  if (!evt.currentTarget.checked) {
+    burger.classList.remove("burger--active");
+  }
+});

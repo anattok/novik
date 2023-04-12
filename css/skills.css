@@ -1,0 +1,57 @@
+.skills {
+  padding: 90px 110px;
+}
+.skills__title {
+  margin-bottom: 70px;
+}
+.skills__text {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 84px;
+}
+.skills__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills__item {
+  width: 167px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.skill__img {
+  margin-bottom: 24px;
+}
+.skill__text {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  max-width: 80px;
+  margin-bottom: 40px;
+  height: 27px;
+}
+.skill__stars {
+  display: flex;
+  justify-content: space-between;
+}
+.skill__star {
+  background-image: url("/images/Star.svg");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+}
+.skill__star--active {
+  background-image: url("/images/Star-active.svg");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+}

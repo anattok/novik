@@ -1,0 +1,80 @@
+.footer {
+  padding: 114px 0 123px;
+}
+.footer__title {
+  margin-bottom: 20px;
+}
+.footer__text {
+  max-width: 275px;
+  text-align: center;
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  margin: 0 auto 26px;
+}
+.footer__button {
+  display: block;
+  width: 180px;
+  height: 42px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 0 auto 91px;
+  cursor: pointer;
+}
+.footer__items {
+  margin: 0 auto 45px;
+  max-width: 342px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__link-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.footer__link-img--linkedin {
+  background-image: url("/images/links/linked.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.footer__link-img--inst {
+  background-image: url("/images/links/inst.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.footer__link-img--behance {
+  background-image: url("/images/links/beh.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.footer__link-img--ball {
+  background-image: url("/images/links/ball.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.footer__description {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}

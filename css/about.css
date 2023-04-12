@@ -1,0 +1,19 @@
+.about {
+  background-color: #f6f6f6;
+  padding: 120px 0 107px;
+}
+.about__title {
+  margin-bottom: 18px;
+}
+.about__text {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  max-width: 485px;
+  margin: 0 auto;
+}
+.about__text:not(:last-child) {
+  margin-bottom: 50px;
+}

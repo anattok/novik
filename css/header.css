@@ -1,0 +1,46 @@
+.header {
+  background-color: #fff;
+}
+.header__wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.header__title {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 47.3392px;
+  line-height: 59px;
+  width: 124px;
+  font-size: 48px;
+  line-height: 59px;
+  color: #070707;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header__about {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  width: 156px;
+  display: flex;
+  align-items: flex-end;
+}
+.header__img {
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .header__wrapper {
+    display: block;
+  }
+  .header__row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__title {
+    margin-bottom: 23px;
+  }
+}

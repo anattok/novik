@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Denis Novik</title>
   </head>
   <body>
@@ -12,6 +12,7 @@
       <div class="container">
         <div class="header__inner">
           <nav class="menu">
+            <input class="chk" type="checkbox" name="" id="" />
             <ul class="menu__list">
               <li class="menu__item">
                 <a href="#" class="menu__link">Home</a>
@@ -30,7 +31,11 @@
               </li>
             </ul>
           </nav>
-
+          <div class="burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </div>
           <div class="header__row">
             <div class="header__wrapper">
               <h1 class="header__title">Denis Novik</h1>
@@ -38,11 +43,6 @@
                 UX | UI designer <br />
                 24 years old, Minsk
               </p>
-            </div>
-            <div class="burger">
-              <span class="burger__line"></span>
-              <span class="burger__line"></span>
-              <span class="burger__line"></span>
             </div>
           </div>
           <img src="/images/photo.jpg" alt="photo" class="header__img" />
@@ -75,7 +75,11 @@
             <p class="skills__text">I work in such programs as</p>
             <div class="skills__items">
               <div class="skills__item">
-                <img src="/images/PS.svg" alt="Photoshop" class="skill__img" />
+                <img
+                  src="/images/skills/PS.svg"
+                  alt="Photoshop"
+                  class="skill__img"
+                />
                 <p class="skill__text">Adobe Photoshop</p>
                 <div class="skill__stars">
                   <div class="skill__star--active"></div>
@@ -86,7 +90,7 @@
                 </div>
               </div>
               <div class="skills__item">
-                <img src="/images/AI.svg" alt="" class="skill__img" />
+                <img src="/images/skills/AI.svg" alt="" class="skill__img" />
                 <p class="skill__text">Adobe Illustrator</p>
                 <div class="skill__stars">
                   <div class="skill__star--active"></div>
@@ -97,7 +101,7 @@
                 </div>
               </div>
               <div class="skills__item">
-                <img src="/images/AE.svg" alt="" class="skill__img" />
+                <img src="/images/skills/AE.svg" alt="" class="skill__img" />
                 <p class="skill__text">
                   Adobe <br />
                   After Effects
@@ -111,7 +115,7 @@
                 </div>
               </div>
               <div class="skills__item">
-                <img src="/images/F.svg" alt="" class="skill__img" />
+                <img src="/images/skills/F.svg" alt="" class="skill__img" />
                 <p class="skill__text">Figma</p>
                 <div class="skill__stars">
                   <div class="skill__star--active"></div>
