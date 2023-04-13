@@ -1,11 +1,11 @@
 .skills {
-  padding: 90px 110px;
+  padding: 90px 0 110px;
 }
 .skills__title {
   margin-bottom: 70px;
 }
 .skills__text {
-  font-family: "Gilroy";
+  font-family: "Gilroy", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -29,7 +29,7 @@
   margin-bottom: 24px;
 }
 .skill__text {
-  font-family: "Gilroy";
+  font-family: "Gilroy", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -54,4 +54,11 @@
   background-repeat: no-repeat;
   width: 26px;
   height: 26px;
+}
+@media (max-width: 768px) {
+  .skills__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

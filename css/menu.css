@@ -1,5 +1,5 @@
 .menu__list {
-  font-family: "Gilroy";
+  font-family: "Gilroy", sans-serif;
   font-weight: 700;
   display: flex;
   justify-content: space-between;
@@ -10,6 +10,9 @@
   font-size: 18px;
   line-height: 22px;
   color: #828282;
+}
+.menu__link:hover{
+  color: #070707;
 }
 .menu {
   position: relative;

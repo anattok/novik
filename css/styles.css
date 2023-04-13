@@ -43,7 +43,7 @@ html {
 }
 
 .title {
-  font-family: "Gilroy";
+  font-family: "Gilroy", sans-serif;
   font-weight: 700;
   font-size: 34px;
   line-height: 42px;
